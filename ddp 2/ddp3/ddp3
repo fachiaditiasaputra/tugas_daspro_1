@@ -1,0 +1,32 @@
+# Input nilai dalam kilogram dari pengguna
+kilogram = float(input("Masukkan nilai dalam kilogram: "))
+
+# Meminta pengguna memilih satuan konversi
+print("Pilih satuan konversi:")
+print("1. Pounds")
+print("2. Ounces")
+print("3. Gram")
+choice = int(input("Masukkan nomor pilihan: "))
+
+# Inisialisasi variabel untuk hasil konversi
+result = 0
+
+# Percabangan untuk memilih satuan konversi
+if choice == 1:
+    # Konversi ke Pounds
+    result = kilogram * 4.53592
+    print(f"{kilogram} kilogram sama dengan {result} pounds")
+elif choice == 2:
+    # Konversi ke Ounces
+    result = kilogram * 2.83495
+    print(f"{kilogram} kilogram sama dengan {result} ounces")
+elif choice == 3:
+    # Konversi ke Gram
+    result = kilogram * 10000
+    print(f"{kilogram} kilogram sama dengan {result} gram")
+else:
+    print("Pilihan tidak valid")
+
+# Menampilkan hasil konversi
+if result != 0:
+    print(f"Hasil konversi: {result}")
