@@ -1,7 +1,7 @@
 # tugas_daspro_1
 tugas
 
-![tugas daspro1 drawio (3)](https://github.com/fachiaditiasaputra/tugas_daspro_1/assets/144757500/e7eb8e97-3a02-4fd6-9bde-514d04320736)
+![tugas daspro1](https://github.com/fachiaditiasaputra/tugas_daspro_1/assets/144757500/d6659149-385e-4ac7-81dc-71121e8e1010)
 
 flowchart
 1. masukkan nama,nim,dan kelas
