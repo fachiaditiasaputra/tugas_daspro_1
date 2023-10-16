@@ -1,0 +1,32 @@
+#menghitung_nilai_konversi_satuan_massa_kilogram
+
+nama=input("masukkan nama:")
+nim=int(input("masukkan nim:"))
+kelas=(input("masukkan kelas:"))
+kilogram=float(input("Masukkan nilai dalam kilogram:"))
+#memilih_satuan_konversi
+print("Pilih satuan konversi:")
+print("1.lb")
+print("2.ons")
+print("3.gram")
+pilihan=int(input("Masukkan nomor pilihan: "))
+#hasil_konversi
+hasil=0
+#Percabangan_untuk_memilih_satuan_konversi
+if pilihan==1:
+#Konversi_ke_lb
+    hasil=kilogram * 4.53592
+    print(f"{kilogram} kilogram sama dengan {hasil} lb")
+elif pilihan==2:
+ #Konversi_ke_ons
+    hasil=kilogram * 2.83495
+    print(f"{kilogram} kilogram sama dengan {hasil} ons")
+elif pilihan==3:
+#Konversi_ke_gram
+    hasil=kilogram * 10000
+    print(f"{kilogram} kilogram sama dengan {hasil} gram")
+else:
+    print("Pilihan tidak valid")
+#Menampilkan_hasil_konversi
+if hasil!=0:
+    print(f"Hasil konversi: {hasil}")
